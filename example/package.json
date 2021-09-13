@@ -1,0 +1,28 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "d3-geo": "^3.0.1",
+    "react": "^17.0.2",
+    "react-app-polyfill": "^1.0.0",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.1.1",
+    "simple-scene-react": "1.0.0"
+  },
+  "alias": {
+    "three": "../node_modules/three"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^5.1.0",
+    "parcel": "1.12.3",
+    "typescript": "^3.4.5"
+  }
+}

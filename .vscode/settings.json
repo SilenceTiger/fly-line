@@ -1,0 +1,28 @@
+{
+    "files.associations": {
+      ".eslintrc.js": "javascriptreact",
+      "*.js": "javascriptreact"
+    },
+    "prettier.configPath": "prettier.config.js",
+    // 一个制表符等于的空格数。该设置在 "editor.detectIndentation" 启用时根据文件内容可能会被覆盖。
+    "editor.tabSize": 2,
+    // 默认行尾字符。使用 \n 表示 LF，\r\n 表示 CRLF。
+    "files.eol": "\n",
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.suggestOnTriggerCharacters": true,
+    "emmet.showAbbreviationSuggestions": false,
+    "files.exclude": {
+      "**/.idea": true,
+      "**/.gradle": true,
+      "**/out": true
+    }
+    // 配置 glob 模式以在搜索中排除文件和文件夹。从 files.exclude 设置中继承所有 glob 模式。
+    // "search.exclude": {
+    // 	"**/node_modules": true,
+    // }
+  }
+  
