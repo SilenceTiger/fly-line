@@ -7,11 +7,11 @@
 `yarn add fly-line`
 
 ## 2.示例
-[3D场景应用](http://localhost:1234/#/3d)
+[3D场景应用](https://silencetiger.github.io/fly-line/#/3d)
 
-[2D场景应用](http://localhost:1234/#/2d)
+[2D场景应用](https://silencetiger.github.io/fly-line/#/2d)
 
-[地图中的应用](http://localhost:1234/#/map)
+[地图中的应用](https://silencetiger.github.io/fly-line/#/map)
 
 `代码见example`
 
