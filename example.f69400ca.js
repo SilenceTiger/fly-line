@@ -91297,8 +91297,10 @@ var ThreeStar = function ThreeStar() {
     return React.createElement("button", {
       key: item,
       onClick: function onClick() {
-        mixer.stopAllAction();
-        mixer.clipAction(animations[index]).play();
+        if (mixer) {
+          mixer.stopAllAction();
+          mixer.clipAction(animations[index]).play();
+        }
       }
     }, item);
   }))), React.createElement(simple_scene_react_1.default, {
