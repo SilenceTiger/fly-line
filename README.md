@@ -13,6 +13,8 @@
 
 [地图中的应用](https://silencetiger.github.io/fly-line/#/map)
 
+[小明射击练习](https://silencetiger.github.io/fly-line/#/moon)
+
 `代码见example`
 
 ## 3.使用

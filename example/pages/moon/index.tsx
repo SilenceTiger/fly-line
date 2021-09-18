@@ -349,8 +349,10 @@ const ThreeStar = () => {
             <button
               key={item}
               onClick={() => {
-                mixer.stopAllAction();
-                mixer.clipAction(animations[index]).play();
+                if (mixer) {
+                  mixer.stopAllAction();
+                  mixer.clipAction(animations[index]).play();
+                }
               }}
             >
               {item}
