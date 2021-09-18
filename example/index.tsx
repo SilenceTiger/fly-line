@@ -5,6 +5,7 @@ import { HashRouter, Route, Link, Switch, Redirect } from 'react-router-dom'
 import Scene2D from './pages/2d'
 import Scene3D from './pages/3d'
 import Map3D from './pages/map'
+import Moon from './pages/moon'
 import './index.css'
 
 const Menu = () => {
@@ -20,6 +21,9 @@ const Menu = () => {
       <Link to="/map" target="_blank">
         3.3D地图应用
       </Link>
+      <Link to="/moon" target="_blank">
+        4.我从地球射嫦娥
+      </Link>
     </div>
   )
 }
@@ -33,6 +37,7 @@ const App = () => {
           <Route path="/2d" component={Scene2D} />
           <Route path="/3d" component={Scene3D} />
           <Route path="/map" component={Map3D} />
+          <Route path="/moon" component={Moon} />
           <Route path="/" render={() => <Redirect to="/menu" />} />
         </Switch>
       </HashRouter>
